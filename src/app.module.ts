@@ -6,6 +6,7 @@ import { CargosModule } from './cargos/cargos.module';
 import { ProfesionesModule } from './profesiones/profesiones.module';
 import { GradosInstruccionModule } from './grados_instruccion/grados_instruccion.module';
 import { EmpleadosModule } from './empleados/empleados.module';
+import { UsuariosModule } from './usuarios/usuarios.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { EmpleadosModule } from './empleados/empleados.module';
     ProfesionesModule,
     GradosInstruccionModule,
     EmpleadosModule,
+    UsuariosModule,
   ],
   controllers: [],
   providers: [],
