@@ -42,3 +42,11 @@ model Profesion {
 
   @@map("profesiones")
 }
+
+model GradoInstruccion {
+  id     Int    @id @default(autoincrement())
+  nombre String @db.VarChar(100)
+  codigo String @unique @db.VarChar(15)
+
+  @@map("grados_instruccion")
+}

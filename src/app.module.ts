@@ -4,6 +4,7 @@ import { DepartamentosModule } from './departamentos/departamentos.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { CargosModule } from './cargos/cargos.module';
 import { ProfesionesModule } from './profesiones/profesiones.module';
+import { GradosInstruccionModule } from './grados_instruccion/grados_instruccion.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { ProfesionesModule } from './profesiones/profesiones.module';
     PrismaModule,
     CargosModule,
     ProfesionesModule,
+    GradosInstruccionModule,
   ],
   controllers: [],
   providers: [],
